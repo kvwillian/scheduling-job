@@ -19,5 +19,9 @@ const input = [
     },
 ];
 
+const schedulingJob = (input) => {
+    
+}
 
+module.exports.schedulingJob = schedulingJob;
  

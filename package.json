@@ -1,0 +1,11 @@
+{
+  "name": "scheduling-job",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kvwillian/scheduling-job.git",
+  "author": "kevinsouza <kevin@piercloud.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
