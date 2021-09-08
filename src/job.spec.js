@@ -1,4 +1,4 @@
-const { schedulingJob } = require('./job');
+const { sortAndFinishSchedule } = require('./job');
 
 describe('Scheduling Job Function', () => {
     it('should return correctly an array with the expected rules', () => {
@@ -24,11 +24,11 @@ describe('Scheduling Job Function', () => {
         ];
 
         const expected = [
-            [1, 3],
-            [2]
+            ['1', '3'],
+            ['2']
         ];
 
-        const result = schedulingJob(input);
+        const result = sortAndFinishSchedule(input);
 
         expect(result).toEqual(expected);
     })
